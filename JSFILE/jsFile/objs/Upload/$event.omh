@@ -1,0 +1,4 @@
+On evClick
+	Do iJSFileRow.$define(iJSMimeList,iJSVariableName)
+	Do iJSFileRow.$assigncols(iJSMimeList,'tJSFileBinData')
+	Do $cinst.$objs.JSFormFile.$action.$assign(kJSFileActionUpload)
